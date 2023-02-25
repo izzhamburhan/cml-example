@@ -10,7 +10,7 @@ jobs:
       
       - name: Train model
         env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_TOKEN: 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
         run: |
           pip install -r requirements.txt
           python train.py
